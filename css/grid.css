@@ -1,9 +1,22 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+html {
+    max-width: 1600px;
+}
+
 .header {
     background-color: bisque;
 }
 
 .slider {
     background-color: orange;
+}
+
+.slider__img {
+    max-width: 1600px;
 }
 
 .categories {
