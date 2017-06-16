@@ -1,0 +1,27 @@
+.header {
+    background-color: red;
+}
+
+.slider {
+    background-color: orange;
+}
+
+.categories {
+    background-color: yellow;
+}
+
+.products {
+    background-color: green;
+}
+
+.feature {
+    background-color: aqua;
+}
+
+.subscribe {
+    background-color: blue;
+}
+
+.footer {
+    background-color: darkviolet;
+}
