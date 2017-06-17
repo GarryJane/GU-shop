@@ -10,33 +10,43 @@ html {
 }
 
 .header {
-    background-color: bisque;
+    background-color: red;
+}
+
+.top-menu {
+    height: 100px;
+}
+
+.main-menu {
+    height: 50px;
 }
 
 .slider {
     background-color: orange;
-}
-
-.slider__img {
-    max-width: 1600px;
+    height: 615px;
 }
 
 .categories {
     background-color: yellow;
+    height: 1021px;
 }
 
 .products {
     background-color: green;
+    height: 1094px;
 }
 
 .feature {
     background-color: aqua;
+    height: 625px;
 }
 
 .subscribe {
     background-color: blue;
+    height: 438px;
 }
 
 .footer {
     background-color: darkviolet;
+    height: 538px;
 }
