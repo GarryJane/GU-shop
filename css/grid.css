@@ -93,22 +93,27 @@ html {
 .top-menu-nav__search,
 .top-menu-nav__search :nth-child(1n) {
     display: inline-block;
-}
-
-
-.top-menu-nav__search > #search-request {
-    width: 281px;
     height: 100%;
     font-family: Lato;
     color: #a4a4a4;
     font-size: 14px;
     font-weight: 300;
     line-height: 32px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e6e6e6;
+    background-color: #ffffff;
+}
+
+
+.top-menu-nav__search > #search-request {
+    width: 281px;
 }
 
 .top-menu-nav__search > #submit {
     width: 36px;
-    height: 100%;
 }
 
 .top-menu__basket {
