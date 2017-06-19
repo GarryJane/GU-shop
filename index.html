@@ -2,18 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Online Shop (GU Educational project)</title>
+    <title>Brand</title>
     <link rel="stylesheet" href="css/grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/clear-form-styles.css">
 </head>
 <body>
 <div class="wrapper">
 
     <div class="header">
         <div class="top-menu">
-            <span class="top-menu__brand">brand</span>
-            <span class="top-menu__search">search</span>
-            <span class="top-menu__basket">basket</span>
-            <span class="top-menu__my-account-btn">My Account</span>
+            <div class="top-menu__brand-logo">
+                <img src="img/logo.png" alt="O-o-o-ops...">
+            </div>
+            <div class="top-menu__brand-text">Dnarb</div>
+            <div class="top-menu-nav">
+                <div class="top-menu-nav__browse-btn">Browse</div>
+                <form class="top-menu-nav__search" action="#" method="post">
+                    <input type="text" placeholder="Search for Item..." name="search-request" id="search-request">
+                    <input type="submit" id="submit" value="ok">
+                </form>
+            </div>
+            <div class="top-menu__basket"></div>
+            <div class="top-menu__my-account-btn">My Account</div>
         </div>
         <div class="main-menu">
             <span class="menu__item">Home</span>
@@ -25,9 +38,7 @@
             <span class="menu__item">Hot Deals</span>
         </div>
     </div>
-    <div class="slider">
-        <!--<img class="slider__img" src="img/img-slider.png" alt="O-o-o-ops... There is no image here">-->
-    </div>
+    <div class="slider"></div>
     <div class="categories">
         <div class="categories__item">Category Item1</div>
         <div class="categories__item">Category Item2</div>
@@ -93,5 +104,6 @@
         </div>
     </div>
 </div>
+
 </body>
 </html>
