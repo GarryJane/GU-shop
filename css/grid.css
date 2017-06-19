@@ -139,6 +139,19 @@ html {
 
 .main-menu {
     height: 50px;
+    text-align: center;
+}
+
+.main-menu__item {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    font-family: Lato;
+    color: #222222;
+    font-size: 14px;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: left;
 }
 
 .slider {
