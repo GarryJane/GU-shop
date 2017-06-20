@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brand</title>
+    <link rel="stylesheet" href="css/grid.css.wrong-way">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+<body>
+<div class="wrapper">
+
+    <div class="header">
+        <div class="top-menu">
+            <div class="top-menu__brand-logo">
+                <img src="img/logo.png" alt="O-o-o-ops...">
+            </div>
+            <div class="top-menu__brand-text">Dnarb</div>
+            <div class="top-menu-nav">
+                <div class="top-menu-nav__browse-btn">Browse</div>
+                <form class="top-menu-nav__search" action="#" method="post">
+                    <input type="text" placeholder="Search for Item..." name="search-request" id="search-request">
+                    <input type="submit" id="submit" value="ok">
+                </form>
+            </div>
+            <div class="top-menu__basket"></div>
+            <div class="top-menu__my-account-btn">My Account</div>
+        </div>
+        <div class="main-menu">
+            <span class="menu__item">Home</span>
+            <span class="menu__item">MAN</span>
+            <span class="menu__item">Woman</span>
+            <span class="menu__item">Kids</span>
+            <span class="menu__item">Accessories</span>
+            <span class="menu__item">Featured</span>
+            <span class="menu__item">Hot Deals</span>
+        </div>
+    </div>
+    <div class="slider"></div>
+    <div class="categories">
+        <div class="categories__item">Category Item1</div>
+        <div class="categories__item">Category Item2</div>
+        <div class="categories__item">Category Item3</div>
+        <div class="categories__item">Category Item4</div>
+    </div>
+    <div class="products">
+        <div class="products__item">Product Item1</div>
+        <div class="products__item">Product Item2</div>
+        <div class="products__item">Product Item3</div>
+        <div class="products__item">Product Item4</div>
+        <div class="products__item">Product Item5</div>
+        <div class="products__item">Product Item6</div>
+        <div class="products__item">Product Item7</div>
+        <div class="products__item">Product Item8</div>
+    </div>
+    <div class="feature">Feature</div>
+    <div class="subscribe">
+        <span class="subscribe__info">Info</span>
+        <span class="subscribe__form">Form</span>
+    </div>
+    <div class="footer">
+        <div class="footer-col _info">
+            <div class="footer-col__brand">brand</div>
+            <div class="footer-col__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad blanditiis
+                consequatur dolorum, error inventore ipsam maiores minus modi numquam praesentium quaerat quibusdam
+                quidem quis rem rerum similique totam voluptatum?
+            </div>
+        </div>
+        <div class="footer-col">
+            <span class="footer-col__title">Company</span>
+            <span class="footer-col__item">Home</span>
+            <span class="footer-col__item">Shop</span>
+            <span class="footer-col__item">About</span>
+            <span class="footer-col__item">How It Works</span>
+            <span class="footer-col__item">Contact</span>
+        </div>
+        <div class="footer-col">
+            <span class="footer-col__title">Information</span>
+            <span class="footer-col__item">Terms & Conditions</span>
+            <span class="footer-col__item">Privacy Policy</span>
+            <span class="footer-col__item">How to Buy</span>
+            <span class="footer-col__item">How to Sell</span>
+            <span class="footer-col__item">Promotion</span>
+        </div>
+        <div class="footer-col">
+            <span class="footer-col__title">Shop Category</span>
+            <span class="footer-col__item">Men</span>
+            <span class="footer-col__item">Women</span>
+            <span class="footer-col__item">Child</span>
+            <span class="footer-col__item">Apparel</span>
+            <span class="footer-col__item">Brows All</span>
+        </div>
+        <div class="footer-copyright">
+            <span class="footer-copyright__copyright">© 2017 Brands All Rights Reserved</span>
+            <span class="footer-copyright-social">
+                <span class="footer-copyright__item">F</span>
+                <span class="footer-copyright__item">T</span>
+                <span class="footer-copyright__item">in</span>
+                <span class="footer-copyright__item">P</span>
+                <span class="footer-copyright__item">G+</span>
+            </span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
