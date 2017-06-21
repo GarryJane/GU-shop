@@ -2,13 +2,20 @@
     margin: 0 auto;
     padding: 0;
     border: none;
+
 }
 
 .html {
     max-width: 1600px;
 }
 
+body {
+    font-family: Lato, Arial, sans-serif;
+    color: #222222;
+}
+
 .container {
+    position: relative;
     max-width: 1600px;
     padding: 0 230px;
 }
@@ -19,6 +26,21 @@
     margin: 0 auto;
     padding: 0;
     width: 100%;
+}
+
+/*
+    Глобальный модификатор подсветки текста брэндовым цветом
+*/
+.highlight {
+    color: #f16d7f;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 .header-nav {
@@ -51,8 +73,6 @@
     height: 51px;
     margin-top: 26px;
     margin-left: 13px;
-    font-family: Lato;
-    color: #222222;
     font-size: 26px; /* Approximation due to font substitution */
     font-weight: 300;
     line-height: 55px; /* Approximation due to font substitution */
@@ -90,8 +110,6 @@
     background: -o-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
     background: -ms-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
     background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
-    font-family: Lato;
-    color: #222222;
     font-size: 14px; /* Approximation due to font substitution */
     font-weight: 300;
     line-height: 35px; /* Approximation due to font substitution */
@@ -103,7 +121,6 @@
     box-sizing: border-box;
     margin-top: 32px;
     height: 38px;
-    font-family: Lato;
     color: #a4a4a4;
     font-size: 14px;
     font-weight: 300;
@@ -141,19 +158,19 @@
 
 .header_nav__my-account-btn {
     position: absolute;
-    top:31px;
+    top: 31px;
     right: 231px;
     width: 130px;
     height: 38px;
     background-color: #f16d7f;
-    font-family: Lato;
     color: #ffffff;
-    font-size: 15px;/* Approximation due to font substitution */
+    font-size: 15px; /* Approximation due to font substitution */
     font-weight: 400;
-    line-height: 35px;/* Approximation due to font substitution */
+    line-height: 35px; /* Approximation due to font substitution */
     text-align: center;
     word-spacing: 5px;
 }
+
 .header-nav_menu {
     width: 100%;
     height: 51px;
@@ -173,16 +190,15 @@
     padding: 0 23.1px;
     margin: 0 auto;
     text-transform: uppercase;
-    font-family: Lato;
-    color: #222222;
-    font-size: 14px;/* Approximation due to font substitution */
+    font-size: 14px; /* Approximation due to font substitution */
     font-weight: 700;
-    line-height: 50px;/* Approximation due to font substitution */
+    line-height: 50px; /* Approximation due to font substitution */
     text-align: left;
 }
 
 .slider-container,
 .slider__img {
+    display: block;
     width: 100%;
 }
 
@@ -191,24 +207,108 @@
     top: 225px;
     left: 231px;
     width: 509px; /* @todo удалить, требуется для отладки*/
-    height: 40px;
-    font-family: Lato;
-    color: #222222;
-    font-size: 40px;/* Approximation due to font substitution */
+    height: 92px; /* @todo удалить, требуется для отладки*/
+    padding-left: 10px;
+    border-left: 13px solid #f16d7f;
+    font-size: 40px; /* Approximation due to font substitution */
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    word-spacing: 3px;
+}
+
+.slider-container__brand {
+    margin-top: -15px;
+    font-size: 60px;
+    word-spacing: 5px;
+}
+
+.slider-container__slogan {
+    margin-top: -5px;
+}
+
+.hot-dial {
+    width: 1200px;
+    position: relative;
+    padding-top: 98px;
+}
+
+.hot-dial__col {
+    float: left;
+    width: 577px;
+}
+
+.hot-dial__item {
+    position: relative;
+    box-sizing: border-box;
+    height: 565px;
+}
+
+.hot-dial__item_low {
+    height: 285px;
+}
+
+.hot-dial__img {
+    display: block;
+    width: 560px;
+ }
+
+.hot-dial__header {
+    position: absolute;
+    top: 26px;
+    left: 8px;
+    height: 82px;
+    background-color: #ffffff;
+
+}
+
+.hot-dial__text {
+    padding-top: 12px;
+    padding-left: 17px;
+    padding-right: 15px;
+    font-size: 18px;
     font-weight: 900;
     text-align: left;
     text-transform: uppercase;
 }
 
-.highlight {
+.hot-dial__text_category {
+    padding-top: 5px;
     color: #f16d7f;
+    font-size: 30px;
 }
 
-.slider-container__slogan_header {
-    height: 60px;
-    font-size: 60px;
-    line-height: 60px;
-    -webkit-margin-before: 0em; !important;
-    -webkit-margin-after: 0em; !important;
+.featured {
+    width: 100%;
+    padding-top: 70px;
 }
 
+.featured__header {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.featured__header_description {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.featured {
+    position: relative;
+    width: 1200px;
+    padding-top: 63px;
+}
+
+.featured__col {
+    box-sizing: border-box;
+    float: left;
+    align-content: center;
+}
+
+.featured__item {
+    width: 261px;
+    height: 279px;
+}
