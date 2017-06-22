@@ -200,6 +200,7 @@ body {
 .slider__img {
     display: block;
     width: 100%;
+    max-width: 1600px;
 }
 
 .slider-container__text {
@@ -349,6 +350,4 @@ body {
     float: left;
     height: 530px;
     margin: 0 auto;
-
-
 }
