@@ -187,7 +187,7 @@ body {
 .header-menu__item {
     float: left;
     height: inherit;
-    padding: 0 23.1px;
+    padding: 0 23px;
     margin: 0 auto;
     text-transform: uppercase;
     font-size: 14px; /* Approximation due to font substitution */
@@ -227,6 +227,10 @@ body {
     margin-top: -5px;
 }
 
+/*
+@todo Переделать блок и элементы .hot-dial* по аналогии с .featured
+*/
+
 .hot-dial {
     width: 1200px;
     position: relative;
@@ -235,7 +239,7 @@ body {
 
 .hot-dial__col {
     float: left;
-    width: 577px;
+    width: 50%;
 }
 
 .hot-dial__item {
@@ -273,42 +277,78 @@ body {
 }
 
 .hot-dial__text_category {
-    padding-top: 5px;
+    padding-top: 6px;
     color: #f16d7f;
     font-size: 30px;
-}
-
-.featured {
-    width: 100%;
-    padding-top: 70px;
 }
 
 .featured__header {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
-
 }
 
 .featured__header_description {
     font-size: 14px;
     font-weight: 400;
-    text-align: center;
+    line-height: 30px;
 }
 
 .featured {
     position: relative;
-    width: 1200px;
-    padding-top: 63px;
-}
+    padding-top: 73px;
+    width: 1160px;
+ }
 
 .featured__col {
     box-sizing: border-box;
     float: left;
-    align-content: center;
+    width: 25%;
+    padding: 2px 14px;
 }
 
 .featured__item {
+    height: 350px;
+    margin-top: 35px;
+}
+
+.featured__img {
+    display: block;
     width: 261px;
     height: 279px;
+}
+
+.featured__description {
+    height: 30px;
+    line-height: 45px;
+    padding-left: 12px;
+    text-transform: uppercase;
+}
+
+.featured__all-products-btn {
+    width: 212px;
+    height: 48px;
+    margin-top: 100px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.featured__banner {
+    position: relative;
+    margin-top: 112px;
+    width: 67%;
+    padding: 0;
+}
+
+.featured__col_banner-img {
+    float: left;
+    height: 530px;
+    margin: 0 auto;
+
+
 }
