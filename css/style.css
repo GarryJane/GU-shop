@@ -302,11 +302,11 @@ body {
     background-color: #222224;
     padding-top: 45px;
     padding-left: 10px;
+
 }
 
 .banner__info-item-icon {
     display: block;
-    margin: 0 auto;
 }
 
 .banner__info-item-header {
@@ -316,7 +316,7 @@ body {
 }
 
 .banner__info-item-text {
-    font-size: 14px;/
+    font-size: 14px;
     font-weight: 300;
     line-height: 24px;
 }
