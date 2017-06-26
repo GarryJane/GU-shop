@@ -1,5 +1,4 @@
 * {
-    margin: 0 auto;
     padding: 0;
     border: none;
 }
@@ -26,6 +25,7 @@ body {
     box-sizing: border-box;
     height: 100px;
     width: 1200px;
+    margin: 0 auto;
     padding: 25px 0 25px 25px;
     background-color: #ffffff;
 }
@@ -155,7 +155,6 @@ body {
 
 .header-menu {
     width: 726px;
-    height: 100%;
     height: 51px;
     margin: 0 auto;
 }
@@ -171,7 +170,6 @@ body {
     text-align: left;
 }
 
-.slider-container,
 .slider__img {
     display: block;
     width: 100%;
@@ -181,8 +179,7 @@ body {
 .slider-container__text {
     position: absolute;
     top: 225px;
-    left: 231px;
-    width: 509px; /* @todo удалить, требуется для отладки*/
+    left: 225px;
     height: 92px; /* @todo удалить, требуется для отладки*/
     padding-left: 10px;
     border-left: 13px solid #f16d7f;
@@ -194,50 +191,38 @@ body {
 }
 
 .slider-container__brand {
-    margin-top: -15px;
+    margin-top: -20px;
     font-size: 60px;
     word-spacing: 5px;
 }
 
 .slider-container__slogan {
-    margin-top: -5px;
+    margin-top: -25px;
 }
-
-/*
-@todo Переделать блок и элементы .hot-dial* по аналогии с .featured
-*/
 
 .hot-dial {
-    width: 1200px;
-    position: relative;
-    padding-top: 98px;
-}
-
-.hot-dial__col {
-    float: left;
-    width: 50%;
+    padding: 90px 0;
 }
 
 .hot-dial__item {
     position: relative;
-    box-sizing: border-box;
-    height: 565px;
-}
-
-.hot-dial__item_low {
-    height: 285px;
+    padding: 10px 0;
 }
 
 .hot-dial__img {
     display: block;
     width: 560px;
+    height: 542px;
  }
+
+.hot-dial__img_low {
+    height: 261px;
+}
+
 
 .hot-dial__header {
     position: absolute;
     top: 26px;
-    left: 8px;
-    height: 82px;
     background-color: #ffffff;
 
 }
@@ -262,30 +247,13 @@ body {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+
 }
 
 .featured__header_description {
+    padding-bottom: 60px;
     font-size: 14px;
     font-weight: 400;
-    line-height: 30px;
-}
-
-.featured {
-    position: relative;
-    padding-top: 73px;
-    width: 1160px;
- }
-
-.featured__col {
-    box-sizing: border-box;
-    float: left;
-    width: 25%;
-    padding: 2px 14px;
-}
-
-.featured__item {
-    height: 350px;
-    margin-top: 35px;
 }
 
 .featured__img {
@@ -296,15 +264,19 @@ body {
 
 .featured__description {
     height: 30px;
-    line-height: 45px;
-    padding-left: 12px;
+    padding-left: 15px;
+    padding-top: 15px;
     text-transform: uppercase;
+}
+
+.featured__description_cost {
+    padding-bottom: 80px;
 }
 
 .featured__all-products-btn {
     width: 212px;
     height: 48px;
-    margin-top: 100px;
+    margin: 15px auto;
     background-color: #f16d7f;
     color: #ffffff;
     font-size: 16px;
@@ -314,18 +286,37 @@ body {
     word-spacing: 5px;
 }
 
-.featured__banner {
-    position: relative;
-    margin-top: 112px;
-    width: 67%;
-    padding: 0;
+.banner {
+    padding-top: 100px;
 }
 
-.featured__col_banner-img {
-    float: left;
-    height: 530px;
+.banner__img {
+    display: block;
+    width: 767px;
+    height: 529px;
 }
 
-.featured__col-banner-info {
-    height: 530px;
+.banner__info-item {
+    color: #fbfbfb;
+    text-align: left;
+    background-color: #222224;
+    padding-top: 45px;
+    padding-left: 10px;
+}
+
+.banner__info-item-icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.banner__info-item-header {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: -5px;
+}
+
+.banner__info-item-text {
+    font-size: 14px;/
+    font-weight: 300;
+    line-height: 24px;
 }
