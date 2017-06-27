@@ -334,20 +334,31 @@ $brandColor: #f16d7f
   background-color: $fieldBGC
   border-radius: $bRad1 $bRad2 $bRad3 $bRad4
 
-.subscribe-bottom__header
-  legend
-    border: none
-
 .subscribe-bottom__form
   $fieldsH: 46px
   $mailW : 282px
   $submitBtnW: 104px
-  width: $mailW + $submitBtnW
-  margin: 108px auto 0 20px
+  margin: 108px auto
+  padding-left: 25px
+  width: $mailW + $submitBtnW + 25px
+  color: #222224
+  text-align: center
+  legend
+    border: 0
   input[type="submit"]
     +subscribeFormInputFieldSet(0, $fieldsH / 2, $fieldsH / 2, 0, $submitBtnW, $fieldsH, $brandColor)
   input[type="email"]
     +subscribeFormInputFieldSet($fieldsH / 2, 0, 0, $fieldsH / 2, $mailW, $fieldsH, #e1e1e1)
+    padding-left: 30px
+
+.subscribe-bottom__header
+  padding-top: 25px
+  font-size: 24px
+  font-weight: 400
 
 
+.subscribe-bottom__description
+  padding-bottom: 10px
+  font-size: 14px
+  line-height: 24px
 
