@@ -1,3 +1,51 @@
+.brand-logo__icon {
+  width: 59px;
+  height: 51px;
+  float: left;
+  background: url("../img/logo.png") no-repeat center; }
+
+.brand-logo__name {
+  height: 51px;
+  float: left;
+  padding-left: 10px;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 55px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  unicode-bidi: bidi-override;
+  direction: rtl; }
+
+.brand-logo__name:first-letter {
+  color: #f16d7f;
+  font-weight: 900; }
+
+.brand-logo__message {
+  width: 427px;
+  margin: 20px 0;
+  color: #898989;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  word-spacing: 3px; }
+
+.footer-menu {
+  padding-top: 110px; }
+
+.footer-menu__cat-name {
+  height: 68px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase; }
+
+.footer-menu__item {
+  color: #898989;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  height: 42px; }
+
 * {
   padding: 0;
   border: none; }
@@ -23,33 +71,11 @@ body {
   padding: 25px 0 25px 25px;
   background-color: #ffffff; }
 
-.header-nav__logo,
-.header-nav__brand,
 .header-nav__browse-btn,
 .header-nav__search-form,
 .header-nav__request-field,
 .header-nav__submit-btn {
   float: left; }
-
-.header-nav__logo {
-  width: 59px;
-  height: 51px;
-  background: url("../img/logo.png") no-repeat center; }
-
-.header-nav__brand {
-  height: 51px;
-  padding-left: 10px;
-  font-size: 26px;
-  font-weight: 300;
-  line-height: 55px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  unicode-bidi: bidi-override;
-  direction: rtl; }
-
-.header-nav__brand:first-letter {
-  color: #f16d7f;
-  font-weight: 900; }
 
 .header-nav__browse-btn {
   box-sizing: border-box;
@@ -292,9 +318,6 @@ body {
   -moz-border-image: -moz-linear-gradient(top, #d3d3d3 0%, #f1f1f1 100%);
   -webkit-border-image: -webkit-linear-gradient(top, #d3d3d3 0%, #f1f1f1 100%);
   border-image: 1 linear-gradient(to bottom, #d3d3d3 0%, #f1f1f1 100%); }
-
-.subscribe-bottom__form {
-  height: 100%; }
 
 .subscribe-bottom__info-person-photo {
   display: block;
