@@ -1,12 +1,12 @@
 /* Imports */
 .brand-logo__icon {
   width: 59px;
-  height: 51px;
+  height: 50px;
   float: left;
   background: url("../img/logo.png") no-repeat center; }
 
 .brand-logo__name {
-  height: 51px;
+  height: 50px;
   float: left;
   padding-left: 10px;
   font-size: 26px;
@@ -30,20 +30,134 @@
   line-height: 24px;
   word-spacing: 3px; }
 
+.header-nav {
+  height: 80px; }
+
+.header-nav_logo {
+  height: 80px;
+  padding: 30px 20px 0 0; }
+
 .header-menu {
   width: 726px;
-  height: 51px;
+  height: 50px;
   margin: 0 auto; }
 
 .header-menu__item {
-  float: left;
-  height: inherit;
   padding: 0 23px;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
   line-height: 50px;
   text-align: left; }
+
+.header-nav__browse-btn {
+  width: 85px;
+  height: 38px;
+  background: -webkit-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+  background: -moz-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+  background: -o-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+  background: -ms-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
+  background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
+  border-right: 1px solid #e6e6e6;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  word-spacing: 5px; }
+
+.header-nav__search-form {
+  box-sizing: border-box;
+  padding-top: 21px;
+  color: #a4a4a4;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 32px; }
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none; }
+
+.header-nav__search-form_border {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px; }
+  .header-nav__search-form_border input {
+    box-sizing: border-box;
+    border: 0;
+    height: 100%; }
+  .header-nav__search-form_border button {
+    box-sizing: border-box;
+    border-radius: 0;
+    height: 100%; }
+
+.header-nav__request-field {
+  width: 281px !important;
+  margin: 0 -3px;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0; }
+
+.header-nav__submit-btn {
+  box-sizing: border-box;
+  color: #a4a4a4;
+  width: 36px;
+  height: 100%;
+  border-left: 1px solid #e6e6e6;
+  background-color: #ffffff; }
+
+.header_nav__basket-btn {
+  float: left;
+  position: absolute;
+  top: 40px;
+  right: 184px;
+  width: 40px;
+  height: 29px;
+  background: url("../img/basket-icon.png") no-repeat center; }
+
+.header_nav__my-account-btn {
+  position: absolute;
+  top: 31px;
+  right: 31px;
+  width: 130px;
+  height: 38px;
+  background-color: #f16d7f;
+  color: #ffffff;
+  font-size: 15px;
+  /* Approximation due to font substitution */
+  font-weight: 400;
+  line-height: 35px;
+  /* Approximation due to font substitution */
+  text-align: center;
+  word-spacing: 5px; }
+
+.brand-logo__icon {
+  width: 59px;
+  height: 50px;
+  float: left;
+  background: url("../img/logo.png") no-repeat center; }
+
+.brand-logo__name {
+  height: 50px;
+  float: left;
+  padding-left: 10px;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 55px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  unicode-bidi: bidi-override;
+  direction: rtl; }
+
+.brand-logo__name:first-letter {
+  color: #f16d7f;
+  font-weight: 900; }
+
+.brand-logo__message {
+  width: 427px;
+  margin: 20px 0;
+  color: #898989;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  word-spacing: 3px; }
 
 .footer-menu {
   padding: 110px 0 70px 0; }
@@ -87,10 +201,12 @@
     font-size: 16px;
     text-align: center;
     line-height: 32px;
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    transition: background-color 0.5s, transform 0.5s; }
   .social .social__item:hover {
     color: #f7f7f8;
-    background-color: #f16d7f; }
+    background-color: #f16d7f;
+    transform: rotate(360deg); }
 
 .social__item_inactive {
   opacity: 0.5; }
@@ -113,91 +229,6 @@ body {
   color: #222222;
   margin: 0 auto;
   max-width: 1600px; }
-
-.header-nav {
-  display: table-cell;
-  position: relative;
-  height: 100px;
-  vertical-align: middle;
-  text-align: center; }
-
-.header-nav__browse-btn,
-.header-nav__search-form,
-.header-nav__request-field,
-.header-nav__submit-btn {
-  float: left; }
-
-.header-nav__browse-btn {
-  box-sizing: border-box;
-  width: 87px;
-  height: 38px;
-  margin-top: 7px;
-  margin-left: 37px;
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
-  border: 1px solid #e6e6e6;
-  background: -webkit-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
-  background: -moz-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
-  background: -o-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
-  background: -ms-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%);
-  background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
-  font-size: 14px;
-  /* Approximation due to font substitution */
-  font-weight: 300;
-  line-height: 35px;
-  /* Approximation due to font substitution */
-  text-align: center;
-  word-spacing: 5px; }
-
-.header-nav__search-form {
-  box-sizing: border-box;
-  height: 38px;
-  margin-top: 7px;
-  color: #a4a4a4;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 32px;
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
-  border: 1px solid #e6e6e6; }
-
-.header-nav__request-field {
-  box-sizing: border-box;
-  width: 281px;
-  height: 100%; }
-
-.header-nav__submit-btn {
-  box-sizing: border-box;
-  color: #a4a4a4;
-  width: 36px;
-  height: 100%;
-  background-color: #ffffff;
-  border-left: 1px solid #e6e6e6; }
-
-.header_nav__basket-btn {
-  float: left;
-  position: absolute;
-  top: 40px;
-  right: 184px;
-  width: 40px;
-  height: 29px;
-  background: url("../img/basket-icon.png") no-repeat center; }
-
-.header_nav__my-account-btn {
-  position: absolute;
-  top: 31px;
-  right: 31px;
-  width: 130px;
-  height: 38px;
-  background-color: #f16d7f;
-  color: #ffffff;
-  font-size: 15px;
-  /* Approximation due to font substitution */
-  font-weight: 400;
-  line-height: 35px;
-  /* Approximation due to font substitution */
-  text-align: center;
-  word-spacing: 5px; }
 
 .slider__img {
   display: block;
@@ -331,7 +362,7 @@ body {
 
 .subscribe-bottom {
   height: 438px;
-  background: url("../img/subscribe-bottim-background.png") no-repeat center;
+  background: url("../img/subscribe-bottom-background.png") no-repeat center;
   opacity: 0.5; }
 
 .subscribe-bottom:hover {

@@ -1,3 +1,23 @@
+@import "brand-logo"
+
+.footer-menu
+  padding: 110px 0 70px 0
+
+.footer-menu__cat-name
+  height: 68px
+  font-size: 18px
+  font-weight: 700
+  line-height: 40px
+  text-transform: uppercase
+
+
+.footer-menu__item
+  color: #898989
+  font-size: 16px
+  line-height: 16px
+  font-weight: 400
+  height: 42px
+
 .brand-copyright
   position: relative
 
@@ -24,9 +44,11 @@
     text-align: center
     line-height: 32px
     background-color: #ffffff
+    transition: background-color 0.5s, transform 0.5s
   .social__item:hover
     color: #f7f7f8
     background-color: #f16d7f
+    transform: rotate(360deg)
 
 .social__item_inactive
   opacity: 0.5
