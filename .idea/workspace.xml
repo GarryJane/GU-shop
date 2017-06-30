@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23c20e8a-5148-42d9-abc6-231a5e022c10" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/subscribe-bottom-background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/subscribe-bottom-person.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/_footer.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/_header.sass" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/_footer-cpyright.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/_footer-menu.sass" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/_header-menu.sass" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_brand-logo.sass" afterPath="$PROJECT_DIR$/css/_brand-logo.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_header.sass" afterPath="$PROJECT_DIR$/css/_header.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.sass" afterPath="$PROJECT_DIR$/css/style.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+            <state relative-caret-position="534">
+              <caret line="58" column="58" lean-forward="false" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
               <folding>
                 <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -55,11 +47,9 @@
       <file leaf-file-name="style.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <marker date="1498840167176" expanded="true" signature="437:513" ph="..." />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/_header.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="48" column="2" lean-forward="false" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+            <state relative-caret-position="1620">
+              <caret line="81" column="11" lean-forward="false" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -122,9 +112,9 @@
         <option value="$PROJECT_DIR$/css/_footer-cpyright.sass" />
         <option value="$PROJECT_DIR$/css/_brand-logo.sass" />
         <option value="$PROJECT_DIR$/css/_footer.sass" />
-        <option value="$PROJECT_DIR$/css/style.sass" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/_header.sass" />
+        <option value="$PROJECT_DIR$/css/style.sass" />
       </list>
     </option>
   </component>
@@ -141,7 +131,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="51" />
     <option name="y" value="24" />
-    <option name="width" value="1700" />
+    <option name="width" value="1208" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -373,7 +363,7 @@
       <workItem from="1498747854485" duration="4000" />
       <workItem from="1498757673788" duration="2762000" />
       <workItem from="1498820281455" duration="10573000" />
-      <workItem from="1498841496852" duration="930000" />
+      <workItem from="1498841496852" duration="2646000" />
     </task>
     <task id="LOCAL-00001" summary="Гбавная страница, bootstrap grid, 80% баннера">
       <created>1498480972468</created>
@@ -431,14 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1498743854433</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="продолжаю, готовы брэнд и форма поиска&#10;(переделываю все элементы на Bootstrap + SASS)">
+      <created>1498842491155</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1498842491155</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71844000" />
+    <option name="totallyTimeSpent" value="73560000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="24" width="1700" height="1056" extended-state="4" />
+    <frame x="51" y="24" width="1208" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15821256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -447,7 +444,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2617896" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48706412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -520,7 +517,8 @@
     <MESSAGE value="SASS, до footer-menu включительно" />
     <MESSAGE value="SASS, 100% статическая часть index.psd" />
     <MESSAGE value="точка возврата, с этого момента переделываю все&#10;элементы на Bootstrap + SASS" />
-    <option name="LAST_COMMIT_MESSAGE" value="точка возврата, с этого момента переделываю все&#10;элементы на Bootstrap + SASS" />
+    <MESSAGE value="продолжаю, готовы брэнд и форма поиска&#10;(переделываю все элементы на Bootstrap + SASS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="продолжаю, готовы брэнд и форма поиска&#10;(переделываю все элементы на Bootstrap + SASS)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -556,9 +554,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <marker date="1498840167176" expanded="true" signature="437:513" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -591,9 +587,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <marker date="1498840167176" expanded="true" signature="437:513" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -626,9 +620,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <marker date="1498840167176" expanded="true" signature="437:513" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -659,9 +651,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <marker date="1498840167176" expanded="true" signature="437:513" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -685,9 +675,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6680">
           <caret line="334" column="40" lean-forward="true" selection-start-line="334" selection-start-column="40" selection-end-line="334" selection-end-column="40" />
-          <folding>
-            <marker date="1498840167176" expanded="true" signature="437:513" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -716,9 +704,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6860">
           <caret line="343" column="20" lean-forward="true" selection-start-line="343" selection-start-column="20" selection-end-line="343" selection-end-column="20" />
-          <folding>
-            <marker date="1498840167176" expanded="true" signature="437:513" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -740,9 +726,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6380">
           <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
-          <folding>
-            <marker date="1498840167176" expanded="true" signature="437:513" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -764,9 +748,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6380">
           <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
-          <folding>
-            <marker date="1498840167176" expanded="true" signature="437:513" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -836,18 +818,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1498840167176" expanded="true" signature="437:513" ph="..." />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="81" column="11" lean-forward="false" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        <state relative-caret-position="534">
+          <caret line="58" column="58" lean-forward="false" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
           <folding>
             <element signature="n#section#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -855,14 +843,6 @@
             <element signature="n#div#2;n#div#1;n#section#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#section#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="48" column="2" lean-forward="false" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>

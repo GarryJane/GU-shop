@@ -107,15 +107,15 @@
   float: left;
   position: absolute;
   top: 40px;
-  right: 184px;
+  right: 150px;
   width: 40px;
   height: 29px;
   background: url("../img/basket-icon.png") no-repeat center; }
 
 .header_nav__my-account-btn {
   position: absolute;
-  top: 31px;
-  right: 31px;
+  top: 30px;
+  right: 0;
   width: 130px;
   height: 38px;
   background-color: #f16d7f;
