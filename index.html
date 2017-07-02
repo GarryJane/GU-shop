@@ -44,22 +44,22 @@
             </div>
 
             <div class="collapse navbar-collapse">
+
+                <div class="dropdown">
+                    <button class="header-nav__browse-btn" id="dropdownMenu" type="button" id="browse-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Browse <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu header-nav__browse-dropdown" aria-labelledby="dropdownMenu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </div>
+
                 <form class="navbar-form navbar-left header-nav__search-form" role="search" action="#" method="post">
                     <div class="form-group header-nav__search-form_border">
-                        <div class="dropdown">
-                            <button class="btn header-nav__browse-btn" type="button" id="browse-btn"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                Browse <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu header-nav__browse-dropdown show" aria-labelledby="dropdownMenu1">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                            </ul>
-                        </div>
-
                         <input type="text" class="form-control header-nav__request-field" placeholder="Search">
                         <button type="submit" class="btn header-nav__submit-btn"><i class="fa fa-search"></i></button>
                     </div>
