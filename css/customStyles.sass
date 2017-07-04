@@ -1,18 +1,31 @@
 @import "customHeader"
 @import "footer"
 @import "customBreadcrumb"
+@import "customProductDesctiption"
+@import "customYouMayLikeAlso"
 
 $brandColor: #f16d7f
+
+.bg_red
+  background-color: $brandColor
+
+.bg_green
+  background-color: lightgreen
+
+.bg_blue
+  background-color: royalblue
 
 a:hover
   text-decoration: none !important
 
-a:visited
+a:visited, a:focus
   color: #636363 !important
+  text-decoration: none
 
 body
   font-family: Lato, Arial, sans-serif
   color: #222222
+  max-width: 1600px
 
 .carousel-control.left, .carousel-control.right
   width: 47px
@@ -45,22 +58,5 @@ body
 
 .carousel-indicators > .active
   background-color: $brandColor
-
-.custom-product-description
-  position: relative
-  background-color: white
-  margin-top: -50px
-  z-index: 10
-
-.custom-product-description__header
-  width: 150px
-  color: #f16d7f
-  font-size: 14px
-  font-weight: 700
-  line-height: 24px
-  text-align: center
-  text-transform: uppercase
-  border-bottom: 5px solid
-  border-image: linear-gradient(to right, lightgrey 33%, $brandColor 33%, $brandColor 66%, lightgrey 66%, lightgrey 66%) 3
 
 
