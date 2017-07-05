@@ -5,6 +5,7 @@
     <title>Single Page</title>
     <link rel="shortcut icon" href="img/logo.png">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
           rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -181,52 +182,38 @@
             $561
         </div>
         <div class="custom-product-description__divider center-block underline"></div>
+
+
+
         <form class="custom-product-choose-form center-block">
             <div class="row">
 
                 <div class="col-md-4 form-group custom-product-choose-form__form-group">
                     <label class="custom-product-choose-form__label" for="color">Choose Color</label>
-                    <div class="dropdown">
-                        <input type="text" class="form-control dropdown-toggle custom-product-choose-form__input"
-                               id="color" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">>
-                        <div class="dropdown-menu" aria-labelledby="color">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </div>
+                    <select class="selectpicker form-control custom-product-choose-form__input show-menu-arrow" id="color">
+                        <option data-content="<span class='custom-product-choose-form__color-icon bg_red'></span>Red" value="red" selected></option>
+                        <option data-content="<span class='custom-product-choose-form__color-icon bg_green'></span>Green" value="green"></option>
+                        <option data-content="<span class='custom-product-choose-form__color-icon bg_blue'></span>Blue" value="blue"></option>
+                    </select>
                 </div>
-
-                <!--
-
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Dropdown button
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                </div>
-                -->
-
 
                 <div class="col-md-4 form-group custom-product-choose-form__form-group">
                     <label class="custom-product-choose-form__label" for="size">Choose Size</label>
-                    <select class="form-control custom-product-choose-form__input" id="size">
+                    <select class="selectpicker form-control custom-product-choose-form__input show-menu-arrow" id="size">
                         <option value="xs">XS</option>
                         <option value="s">S</option>
-                        <option selected value="l">L</option>
+                        <option value="l">L</option>
                         <option value="xl">XL</option>
-                        <option value="xxl">XXL</option>
+                        <option value="xxl" selected>XXL</option>
                     </select>
                 </div>
                 <div class="col-md-4 form-group custom-product-choose-form__form-group">
                     <label class="custom-product-choose-form__label" for="quantity">Choose Quantity</label>
                     <input class="form-control custom-product-choose-form__input" type="text" id="quantity">
                 </div>
+
             </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <button type="submit" class="btn custom-product-choose-form__submit"><img
@@ -235,7 +222,10 @@
                 </div>
             </div>
         </form>
-    </div>
+
+    </div><!-- /.custom-product-description__divider -->
+
+
 </article>
 <article class="container custom-you-may-like-also">
     <header class="custom-you-may-like-also__header">You may also like</header>
@@ -374,5 +364,6 @@
 
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
 </body>
 </html>
