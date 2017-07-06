@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
           rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="css/shoppingCart.css">
 </head>
@@ -116,6 +117,73 @@
     </div>
 </div>
 
+<div class="container product-detail">
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th class="product-detail__col-name">Product Details</th>
+            <th class="product-detail__col-name">Unite Price</th>
+            <th class="product-detail__col-name">Quantity</th>
+            <th class="product-detail__col-name">shipping</th>
+            <th class="product-detail__col-name">Subtotal</th>
+            <th class="product-detail__col-name">Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <img class="product-detail__img" src="img/product-details-img1.png" alt="Фото товара отсутствует!">
+                <div class="product-detail__name">Mango People T-shirt</div>
+                <div class="product-detail__property">Color: <span class="product-detail__property_value">Red</span>
+                </div>
+                <div class="product-detail__property">Size: <span class="product-detail__property_value">Xll</span>
+                </div>
+            </td>
+            <td class="product-detail__cost">$150</td>
+            <td><input class="product-detail__quantity" type="number" name="quantity" value="2"></td>
+            <td class="product-detail__shipping">free</td>
+            <td class="product-detail__cost">$300</td>
+            <td><i class="fa fa-times-circle-o product-detail__remove-icon" aria-hidden="true"></i></td>
+        </tr>
+        <tr>
+            <td>
+                <img class="product-detail__img" src="img/product-details-img2.png" alt="Фото товара отсутствует!">
+                <div class="product-detail__name">Mango People T-shirt</div>
+                <div class="product-detail__property">Color: <span class="product-detail__property_value">Red</span>
+                </div>
+                <div class="product-detail__property">Size: <span class="product-detail__property_value">Xll</span>
+                </div>
+            </td>
+            <td class="product-detail__cost">$150</td>
+            <td><input class="product-detail__quantity" type="number" name="quantity" value="2"></td>
+            <td class="product-detail__shipping">free</td>
+            <td class="product-detail__cost">$300</td>
+            <td><i class="fa fa-times-circle-o product-detail__remove-icon" aria-hidden="true"></i></td>
+        </tr>
+        <tr>
+            <td>
+                <img class="product-detail__img" src="img/product-details-img3.png" alt="Фото товара отсутствует!">
+                <div class="product-detail__name">Mango People T-shirt</div>
+                <div class="product-detail__property">Color: <span class="product-detail__property_value">Red</span>
+                </div>
+                <div class="product-detail__property">Size: <span class="product-detail__property_value">Xll</span>
+                </div>
+            </td>
+            <td class="product-detail__cost">$150</td>
+            <td><input class="product-detail__quantity" type="number" name="quantity" value="2"></td>
+            <td class="product-detail__shipping">free</td>
+            <td class="product-detail__cost">$300</td>
+            <td><i class="fa fa-times-circle-o product-detail__remove-icon" aria-hidden="true"></i></td>
+        </tr>
+        </tbody>
+    </table>
+    <nav class="product-detail-nav">
+        <button class="product-detail-nav__btn">CLEAR SHOPPING CART</button>
+        <button class="pull-right product-detail-nav__btn">CONTINUE SHOPPING</button>
+    </nav>
+</div>
+
 <footer>
     <div class="container-fluide">
         <section class="row subscribe-bottom">
@@ -218,7 +286,5 @@
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap-select.min.js"></script>
-</body>
-</html>
 </body>
 </html>
