@@ -476,6 +476,7 @@ body {
     font-weight: 700;
     text-transform: uppercase; }
   .product-detail-nav .product-detail-nav__btn:hover {
-    background-color: #ef5b70; }
+    color: #ef5b70;
+    border-color: #f16d7f; }
 
 /*# sourceMappingURL=shoppingCart.css.map */
